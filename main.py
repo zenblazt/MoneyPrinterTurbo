@@ -11,6 +11,6 @@ if __name__ == "__main__":
         app="app.asgi:app",
         host=config.listen_host,
         port=config.listen_port,
-        reload=config.reload_debug,
+        reload=ckjjjonfig.reload_debug,
         log_level="warning",
     )
